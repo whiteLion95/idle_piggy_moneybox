@@ -1,0 +1,37 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 623709628fb5c5a4bb6465cdb602a4c7, type: 3}
+  m_Name: PopUpNumbersData
+  m_EditorClassIdentifier: 
+  xMin: -0.3
+  xMax: 0.3
+  zMin: -0.3
+  zMax: 0.3
+  yOffset: 0.1
+  numberAttributes:
+  - coinSource: 0
+    fontSize: 12
+    color: {r: 0.9339623, g: 0.9339623, b: 0.9339623, a: 1}
+  - coinSource: 1
+    fontSize: 14
+    color: {r: 0.3137255, g: 1, b: 0.30588236, a: 1}
+  - coinSource: 2
+    fontSize: 20
+    color: {r: 0.100427166, g: 0.18511392, b: 0.8584906, a: 1}
+  - coinSource: 3
+    fontSize: 30
+    color: {r: 0.87843144, g: 0.64705884, b: 0.039215688, a: 1}
+  - coinSource: 4
+    fontSize: 35
+    color: {r: 1, g: 0, b: 0, a: 1}
+  tweenDuration: 1.5
+  deltaY: 1.5

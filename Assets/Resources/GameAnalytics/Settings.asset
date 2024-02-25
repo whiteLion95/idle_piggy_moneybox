@@ -1,0 +1,337 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6f78192cec1344d83a177ac5e6139ab3, type: 3}
+  m_Name: Settings
+  m_EditorClassIdentifier: 
+  TotalMessagesSubmitted: 0
+  TotalMessagesFailed: 0
+  DesignMessagesSubmitted: 0
+  DesignMessagesFailed: 0
+  QualityMessagesSubmitted: 0
+  QualityMessagesFailed: 0
+  ErrorMessagesSubmitted: 0
+  ErrorMessagesFailed: 0
+  BusinessMessagesSubmitted: 0
+  BusinessMessagesFailed: 0
+  UserMessagesSubmitted: 0
+  UserMessagesFailed: 0
+  CustomArea: 
+  gameKey:
+  - ae83c9585de08effe037aede55d2c8e4
+  secretKey:
+  - c428ca3214ef045d347ff8cf336e9d7fd4b9bef6
+  Build:
+  - 0.1
+  SelectedPlatformOrganization:
+  - Deslab.xyz
+  SelectedPlatformStudio:
+  - Deslab.xyz
+  SelectedPlatformGame:
+  - Piggy Moneybox Idle
+  SelectedPlatformGameID: 36380300
+  SelectedOrganization: 01000000
+  SelectedStudio: 01000000
+  SelectedGame: 09000000
+  NewVersion: 7.3.24
+  Changes: '7.3.24
+
+    - fixed fps script for when pausing game
+
+
+    7.3.23
+
+    -
+    fixed bug with custom fields (locale related bug)
+
+
+    7.3.22
+
+    - added external
+    dependency manager for .unitypackage release as well to solve issues with appset
+    id on android
+
+
+    7.3.21
+
+    - fixed bug in internal error reporting
+
+
+    7.3.20
+
+    -
+    added event uuid to events sent
+
+
+    7.3.19
+
+    - updated dependencies
+
+
+    7.3.18
+
+    -
+    fixed fps event script to still run coroutines when Time.timeScale = 0 by using
+    WaitForSecondsRealtime instead of WaitForSeconds
+
+
+    7.3.17
+
+    - added method
+    manually update gamekey and secretkey
+
+
+    7.3.16
+
+    - fixed uwp build errors
+
+
+    7.3.15
+
+    -
+    changed frequency logic for fps events
+
+
+    7.3.14
+
+    - small fix
+
+
+    7.3.13
+
+    -
+    fixed crash for android builds
+
+
+    7.3.12
+
+    - removed imei identifiers and
+    other alternative identifiers from user identifier logic (android)
+
+
+    7.3.11
+
+    -
+    updated dependency to external dependency resolver
+
+
+    7.3.10
+
+    - adding
+    missing .meta file for upm release
+
+    - switched to using openupm for scoped
+    registry when using upm, please update the upm setup for the unity sdk
+
+
+    7.3.9
+
+    -
+    fixed upm package.json
+
+
+    7.3.8
+
+    - fixed upm dependecy
+
+
+    7.3.7
+
+    -
+    added depedencies.xml for upm release
+
+
+    7.3.6
+
+    - fixed playmaker bugs
+
+
+    7.3.5
+
+    -
+    changed settings to have FPS events turned off by default
+
+
+    7.3.4
+
+    -
+    added error events to be sent for invalid custom event fields used
+
+    - added
+    optional mergeFields argument to event methods to merge with global custom fields
+    instead of overwrite them
+
+
+    7.3.3
+
+    - playmaker fixes
+
+
+    7.3.2
+
+    -
+    fixed missing custom event fields for when trying to fix missing session end
+    events
+
+
+    7.3.1
+
+    - fixed editor ui bug with games with the same name
+
+
+    7.3.0
+
+    -
+    added global custom event fields function to allow to add custom fields to events
+    sent automatically by the SDK
+
+
+    7.2.1
+
+    - added functionality to force
+    a new user in a/b testing without having to uninstall app first, simply use custom
+    user id function to set a new user id which hasn''t been used yet
+
+
+    7.2.0
+
+    -
+    added support for admob impression events
+
+
+    7.1.1
+
+    - fixed build errors
+    for desktop platforms
+
+
+    7.1.0
+
+    - added custom event fields feature
+
+
+    7.0.5
+
+    -
+    updated hyperbid ilrd integration
+
+
+    7.0.4
+
+    - added ios part for aequus
+    ilrd integration
+
+
+    7.0.3
+
+    - renamed ATT method name to avoid dupplicate
+    symbols
+
+
+    7.0.2
+
+    - fixes to ILRD integrations
+
+
+    7.0.1
+
+    - updated
+    ILRD integrations
+
+
+    7.0.0
+
+    - Changed user identifier logic in preparation
+    for Google changes to GAID. User id for a new install is now a randomised GUID.
+    Existing installs that update SDK will continue using previous identifier logic.
+    It is recommended to update as soon as possible to reduce impact on calculated
+    metrics.
+
+
+    6.7.1
+
+    - fixes to max irld integration
+
+
+    6.7.0
+
+    -
+    added option to enable native exceptions error reporting for android and ios
+
+
+    6.6.4
+
+    -
+    prepared for google advertising identifier changes (will not use google advertising
+    identifier when user has opted out) (android)
+
+    - it should now be possible
+    to not show idfa consent dialog if you don''t have any third party code that
+    needs to use idfa
+
+
+    6.6.3
+
+    - removed unnecessary append of stacktrace
+    when stacktrace is missing from warning/error messages sent to GA backend'
+  SignUpOpen: 0
+  StudioName: 
+  GameName: idle-piggy-moneybox
+  OrganizationName: 
+  OrganizationIdentifier: 
+  EmailGA: orbitevcalipt@gmail.com
+  IntroScreen: 0
+  InfoLogEditor: 1
+  InfoLogBuild: 1
+  VerboseLogBuild: 0
+  UseManualSessionHandling: 0
+  SendExampleGameDataToMyGame: 0
+  UseIMEI: 0
+  InternetConnectivity: 0
+  CustomDimensions01: []
+  CustomDimensions02: []
+  CustomDimensions03: []
+  ResourceItemTypes: []
+  ResourceCurrencies: []
+  LastCreatedGamePlatform: 0
+  Platforms: 0b000000
+  CurrentInspectorState: 1
+  ClosedHints: 
+  DisplayHints: 0
+  DisplayHintsScrollState: {x: 0, y: 0}
+  Logo: {fileID: 2800000, guid: 98df8f9c5678a4e5d964caa1244e8958, type: 3}
+  UpdateIcon: {fileID: 0}
+  InfoIcon: {fileID: 0}
+  DeleteIcon: {fileID: 0}
+  GameIcon: {fileID: 0}
+  HomeIcon: {fileID: 0}
+  InstrumentIcon: {fileID: 0}
+  QuestionIcon: {fileID: 0}
+  UserIcon: {fileID: 0}
+  AmazonIcon: {fileID: 0}
+  GooglePlayIcon: {fileID: 0}
+  iosIcon: {fileID: 0}
+  macIcon: {fileID: 0}
+  windowsPhoneIcon: {fileID: 0}
+  UsePlayerSettingsBuildNumber: 0
+  SubmitErrors: 1
+  MaxErrorCount: 10
+  SubmitFpsAverage: 1
+  SubmitFpsCritical: 1
+  IncludeGooglePlay: 1
+  FpsCriticalThreshold: 20
+  FpsCirticalSubmitInterval: 1
+  PlatformFoldOut: 01
+  CustomDimensions01FoldOut: 0
+  CustomDimensions02FoldOut: 0
+  CustomDimensions03FoldOut: 0
+  ResourceItemTypesFoldOut: 0
+  ResourceCurrenciesFoldOut: 0

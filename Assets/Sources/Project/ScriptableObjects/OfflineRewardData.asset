@@ -1,0 +1,34 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 70e364c60a7813f42b5508603e8892b6, type: 3}
+  m_Name: OfflineRewardData
+  m_EditorClassIdentifier: 
+  PrefsKey: LastTime
+  RewardData:
+  - TimeoutMin: 1
+    TimeoutMax: 6
+    Multiplier: 1
+  - TimeoutMin: 7
+    TimeoutMax: 12
+    Multiplier: 2
+  - TimeoutMin: 13
+    TimeoutMax: 40
+    Multiplier: 3
+  - TimeoutMin: 41
+    TimeoutMax: 60
+    Multiplier: 5
+  - TimeoutMin: 61
+    TimeoutMax: 100
+    Multiplier: 7
+  - TimeoutMin: 101
+    TimeoutMax: 99999999
+    Multiplier: 10

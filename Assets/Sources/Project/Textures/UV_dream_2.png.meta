@@ -1,0 +1,628 @@
+fileFormatVersion: 2
+guid: 143974ec033ba314e9d002f04d8468b7
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 4159860240215956189
+    second: UV_dream_2_0
+  - first:
+      213: 4851848101693826421
+    second: UV_dream_2_1
+  - first:
+      213: 1397267225320184284
+    second: UV_dream_2_2
+  - first:
+      213: 282066442564277713
+    second: UV_dream_2_3
+  - first:
+      213: -868458021316306757
+    second: UV_dream_2_4
+  - first:
+      213: 1361213238125783320
+    second: UV_dream_2_5
+  - first:
+      213: 3244460271978903282
+    second: UV_dream_2_6
+  - first:
+      213: -2227393847639244523
+    second: UV_dream_2_7
+  - first:
+      213: -175533516459720264
+    second: UV_dream_2_8
+  - first:
+      213: 4051000759953041110
+    second: UV_dream_2_9
+  - first:
+      213: 1929853771695139528
+    second: UV_dream_2_10
+  - first:
+      213: 4227928709447840030
+    second: UV_dream_2_11
+  - first:
+      213: 7538914749134780138
+    second: UV_dream_2_12
+  - first:
+      213: 2417525770616376409
+    second: UV_dream_2_13
+  - first:
+      213: -3142472753856917267
+    second: UV_dream_2_14
+  - first:
+      213: 6373809781343133975
+    second: UV_dream_2_15
+  - first:
+      213: 2655296955865626778
+    second: UV_dream_2_16
+  - first:
+      213: -107383108733876510
+    second: UV_dream_2_17
+  - first:
+      213: -8715788958772050520
+    second: UV_dream_2_18
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 0
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 1
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: UV_dream_2_0
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 1517
+        width: 164
+        height: 523
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ddad75d39dacab930800000000000000
+      internalID: 4159860240215956189
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UV_dream_2_1
+      rect:
+        serializedVersion: 2
+        x: 496
+        y: 1529
+        width: 161
+        height: 507
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5752d9d642a355340800000000000000
+      internalID: 4851848101693826421
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UV_dream_2_2
+      rect:
+        serializedVersion: 2
+        x: 663
+        y: 1584
+        width: 269
+        height: 452
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd9518d6327146310800000000000000
+      internalID: 1397267225320184284
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UV_dream_2_3
+      rect:
+        serializedVersion: 2
+        x: 930
+        y: 1594
+        width: 283
+        height: 452
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d51a106fe91ae300800000000000000
+      internalID: 282066442564277713
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UV_dream_2_4
+      rect:
+        serializedVersion: 2
+        x: 1206
+        y: 1567
+        width: 298
+        height: 469
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb85a19e70e92f3f0800000000000000
+      internalID: -868458021316306757
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UV_dream_2_5
+      rect:
+        serializedVersion: 2
+        x: 1511
+        y: 1716
+        width: 321
+        height: 316
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 819eb026a3004e210800000000000000
+      internalID: 1361213238125783320
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UV_dream_2_6
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 1204
+        width: 312
+        height: 307
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f67b2f6d63a60d20800000000000000
+      internalID: 3244460271978903282
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UV_dream_2_7
+      rect:
+        serializedVersion: 2
+        x: 323
+        y: 1193
+        width: 333
+        height: 331
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5118298c815b611e0800000000000000
+      internalID: -2227393847639244523
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UV_dream_2_8
+      rect:
+        serializedVersion: 2
+        x: 663
+        y: 1356
+        width: 384
+        height: 226
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b14e316231609df0800000000000000
+      internalID: -175533516459720264
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UV_dream_2_9
+      rect:
+        serializedVersion: 2
+        x: 1052
+        y: 1296
+        width: 432
+        height: 264
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d6a6d16abb083830800000000000000
+      internalID: 4051000759953041110
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UV_dream_2_10
+      rect:
+        serializedVersion: 2
+        x: 1493
+        y: 1296
+        width: 450
+        height: 401
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ca2652d7c738ca10800000000000000
+      internalID: 1929853771695139528
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UV_dream_2_11
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 823
+        width: 397
+        height: 357
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e11705eb2ce9caa30800000000000000
+      internalID: 4227928709447840030
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UV_dream_2_12
+      rect:
+        serializedVersion: 2
+        x: 404
+        y: 804
+        width: 444
+        height: 381
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae6b12e750b9f9860800000000000000
+      internalID: 7538914749134780138
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UV_dream_2_13
+      rect:
+        serializedVersion: 2
+        x: 858
+        y: 937
+        width: 464
+        height: 349
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 95c01f831e6cc8120800000000000000
+      internalID: 2417525770616376409
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UV_dream_2_14
+      rect:
+        serializedVersion: 2
+        x: 1358
+        y: 900
+        width: 659
+        height: 367
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de0d30e0ea1b364d0800000000000000
+      internalID: -3142472753856917267
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UV_dream_2_15
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 309
+        width: 533
+        height: 498
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7112edae932547850800000000000000
+      internalID: 6373809781343133975
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UV_dream_2_16
+      rect:
+        serializedVersion: 2
+        x: 546
+        y: 344
+        width: 566
+        height: 450
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a98fb83538289d420800000000000000
+      internalID: 2655296955865626778
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UV_dream_2_17
+      rect:
+        serializedVersion: 2
+        x: 167
+        y: 1522
+        width: 165
+        height: 516
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e64a0da1af728ef0800000000000000
+      internalID: -107383108733876510
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UV_dream_2_18
+      rect:
+        serializedVersion: 2
+        x: 333
+        y: 1524
+        width: 162
+        height: 517
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a5ce17ce1c4b0780800000000000000
+      internalID: -8715788958772050520
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      UV_dream_2_0: 4159860240215956189
+      UV_dream_2_1: 4851848101693826421
+      UV_dream_2_10: 1929853771695139528
+      UV_dream_2_11: 4227928709447840030
+      UV_dream_2_12: 7538914749134780138
+      UV_dream_2_13: 2417525770616376409
+      UV_dream_2_14: -3142472753856917267
+      UV_dream_2_15: 6373809781343133975
+      UV_dream_2_16: 2655296955865626778
+      UV_dream_2_17: -107383108733876510
+      UV_dream_2_18: -8715788958772050520
+      UV_dream_2_2: 1397267225320184284
+      UV_dream_2_3: 282066442564277713
+      UV_dream_2_4: -868458021316306757
+      UV_dream_2_5: 1361213238125783320
+      UV_dream_2_6: 3244460271978903282
+      UV_dream_2_7: -2227393847639244523
+      UV_dream_2_8: -175533516459720264
+      UV_dream_2_9: 4051000759953041110
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

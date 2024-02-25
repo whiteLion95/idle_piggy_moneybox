@@ -1,0 +1,19 @@
+fileFormatVersion: 2
+<<<<<<< Updated upstream
+<<<<<<< Updated upstream:Assets/Sources/Project/Scripts/UI/Skills/UI_SkillBlock.cs.meta
+guid: 41c4200dade39154393b9a4044f80965
+=======
+guid: e6436539bbd5abe4f817244c10c06803
+>>>>>>> Stashed changes:Assets/Sources/Project/Scripts/TimeManager.cs.meta
+=======
+guid: 41c4200dade39154393b9a4044f80965
+>>>>>>> Stashed changes
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

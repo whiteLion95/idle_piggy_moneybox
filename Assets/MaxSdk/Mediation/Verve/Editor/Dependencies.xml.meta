@@ -1,0 +1,11 @@
+fileFormatVersion: 2
+guid: bce11a786f6b54963a8085520a643ce8
+labels:
+- al_max
+- al_max_export_path-MaxSdk/Mediation/Verve/Editor/Dependencies.xml
+- al_max_export_path-MaxSdk\Mediation\Verve\Editor\Dependencies.xml
+TextScriptImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
